@@ -1,5 +1,5 @@
 
-FROM 192.168.0.3:5000/pythonos:latest
+FROM 192.168.0.3:5000/pythonos:1.0.0
 
 WORKDIR /app/
 ADD src /app/
