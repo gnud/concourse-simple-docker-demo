@@ -1,5 +1,5 @@
 
-FROM qpick-registry2:5000/pythonos:latest
+FROM 192.168.0.3:5000/pythonos:latest
 
 WORKDIR /app/
 ADD src /app/
