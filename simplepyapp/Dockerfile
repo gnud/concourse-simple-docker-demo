@@ -6,8 +6,8 @@ ADD src /app/
 ADD requirements /requirements
 
 RUN mkdir /.pip/ \
-    && ls -l \
-    && ls -l requirements \
+    && ls -l / \
+    && ls -l /requirements \
     && pip --disable-pip-version-check install --cache-dir=/.pip -r /requirements/requirements.txt \
     && rm -rf /.pip \
     && rm -rf /requirements
